@@ -1,0 +1,65 @@
+h1,h2
+{
+    color: red;
+}
+ol > li
+{
+    color: red;
+}
+
+
+input[type = text]
+{
+    background-color: red;
+}
+input[type = number]
+{
+    background-color: red;
+}
+
+input[type = email]
+{
+    background-color: yellow;
+}
+
+
+
+/* before link styling */
+
+
+li::before
+{
+    content:"\21d2 click me:";
+    font-size:20px;
+    color: teal;
+}
+
+
+
+/* screen only (what to show in ctrl + P) */
+
+@media print 
+{
+    .screenOnly
+    {
+        display:none;
+    }
+}
+
+@media (min-width:700px)
+{
+        p::before
+        {
+            content:'welcome to web page';
+        }
+}
+
+@media (max-width: 699px)
+{
+    p::before
+    {
+        content:'welcome';
+    }
+}
+
+

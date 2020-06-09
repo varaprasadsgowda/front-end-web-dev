@@ -1,0 +1,30 @@
+div p,h1      /*code for external and selctors */
+{
+     color:rgb(199, 73, 15);
+     font-size:30px;
+     font-weight:200
+}
+p{
+     color:coral;
+}
+
+
+#first             /*this is for ids*/
+{
+     color:yellowgreen;
+}
+
+.first{             /*class syntax*/
+     color: blueviolet;
+     font-size:50px;
+     transform: rotate3d(2);
+}
+
+body
+{    
+     border: brown 4px solid;
+     background-size: auto;
+     background-position: top;
+     margin: 100px;
+     background: black;
+}

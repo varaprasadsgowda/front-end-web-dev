@@ -1,0 +1,28 @@
+.container
+{
+    width: 1270px;
+    margin: 0 auto;
+    background-color: rgb(216, 210, 202);
+    font-size: 25px;
+    padding: 30px;
+}
+.parallax{
+    background: url("images/portfolio2.jpg")no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+.parallax2{
+    background: url("images/portfolio12.jpg")no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.parallax,.parallax2 >p
+{
+    color: rgb(212, 206, 198);
+    font-size: 3rem;
+    text-align: center;
+    line-height: 500px;
+}

@@ -1,0 +1,61 @@
+#minmalistic
+{
+     height:60px;
+     widows:400px;
+     background-color: rgb(75, 94, 179);
+     text-align: center;
+     border:yellowgreen solid 3px;
+     font-size:29px;
+}
+#minmalistic a
+{
+     text-decoration:none;
+     color:cornsilk;
+     font-style:oblique;
+     text-transform: capitalize;
+}
+#imageresize
+{
+     float: left;;
+     width:50px;
+     margin:4px 20px;
+}
+#leftside
+{
+     width:70px;
+     float: right;
+     margin:4px 30px ;
+}
+.toolbar a
+{
+     text-decoration:none;
+     color: blueviolet;
+     margin-left:50px;
+}
+.toolbar a:hover
+{
+     color: blue;
+     text-decoration: underline;
+}
+.toolbar
+{
+     height: 30px;
+     widows: inherit;
+     background-color: aquamarine;
+     border:black solid 2px;
+     border-top:none;
+}
+#sidebarleft
+{
+     float:left;
+     height:700px;
+     width: 250px;
+     background-color: bisque;
+}
+#sidebarbox
+{
+     width:20px;
+     height:20px;
+     color: blue;
+     
+}
