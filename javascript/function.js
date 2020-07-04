@@ -7,4 +7,3 @@ function if_condition() {
   l1 = l;
 }
 
-
